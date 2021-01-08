@@ -12,7 +12,7 @@ public class Grade {
             inputGrade(b);
             if (a == "")
             {
-                throw new InputNumException("Not Null!");
+                throw new InputNumException("Not Null!!!");
             }
             System.out.println(Grade2Str(b));
             // System.out.println((b >= 0 && b <= 100) ? Grade2Str(b) : "Please input right grade!");
